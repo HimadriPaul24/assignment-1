@@ -60,6 +60,41 @@ main section {
 /* shared style  */
 
 /* featured styles */
+.pink-div {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    /* background-image: url('../images/flower-7.png');
+    background-repeat: no-repeat; */
+    /* background-position: bottom; */
+    /* margin-bottom: 0px; */
+
+}
+
+.pink-flower {
+    background-position: bottom;
+
+
+}
+
+.pink-detail {
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+}
+
+.blue-div {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+
+}
+
+.green-div {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
 
 /* hot deal styles */
 .hot-deal-section {
@@ -85,26 +120,16 @@ main section {
 }
 
 .hot-deal-banner {
-    padding: 30px 200px 0px 200px;
+    padding: 30px 200px 20px 200px;
     display: flex;
     align-items: center;
 }
 
-.btn-secondary{
-    border-radius: 8px;
-    background: #E55473;
-    border: 0;
-    color: white;
-    font-size: 15px;
-    font-weight: 700;
-    /* margin: 50px; */
-    padding: 15px 30px;
-    text-align: center;
-    margin-top: 50px;
 
+.btn-signup {
+    text-align: center;
 
 }
-
 
 /* instagram styles */
 
@@ -200,8 +225,8 @@ main section {
 /* footer started  */
 .footer {
     background-color: #111010;
-    padding: 115px;
-    margin-top: 128px;
+    padding: 105px;
+    margin-top: 118px;
     margin-bottom: 0px;
 
 }
@@ -215,11 +240,12 @@ main section {
     font-size: 30px;
     width: 0px;
     margin: 0 auto;
+    text-align: center;
 }
 
 .footer-description {
     margin-left: 100px;
-    padding: 30px 650px;
+    padding: 30px 160px;
     font-size: 18px;
     color: rgba(255, 255, 255, 0.90);
     text-align: center;
@@ -230,7 +256,7 @@ main section {
 .copyright {
     padding: 30px 650px;
     padding-bottom: 128px;
-    margin-left: 100px;
+    margin-left: 50px;
     color: rgba(255, 255, 255, 0.40);
     text-align: center;
     font-size: 16px;
