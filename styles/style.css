@@ -97,13 +97,13 @@ main section {
 }
 
 /* deal section styles  */
-.deal-container{
-      background-image: url("../images/flower-6.png");
-      background-repeat: no-repeat;
-      max-width: 1440px;
-      margin: 0 auto;
-      margin-bottom: 30px;
-      
+.deal-container {
+    background-image: url("../images/flower-6.png");
+    background-repeat: no-repeat;
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+
 }
 
 .deal-heading {
@@ -118,10 +118,47 @@ main section {
 #email {
     height: 45px;
     width: 700px;
-  
-}
-.connect{
-    margin-left: 300px;
-    padding-bottom:120px;
+    border: 0px;
+    border-radius: 8px;
+
 }
 
+.connect {
+    margin-left: 300px;
+    padding-bottom: 120px;
+}
+
+/* footer started  */
+.footer {
+    background-color: #111010;
+    padding: 115px;
+    margin-top: 128px;
+    margin-bottom: 0px;
+   
+}
+
+.footer-flower {
+    color: #E55473;
+}
+
+.footer-heading {
+    color: white;
+    font-size: 30px;
+    width: 0px;
+    margin: 0 auto;
+}
+
+.footer-description {
+    color: white;
+    margin-left: 100px;
+    padding: 30px 650px;
+}
+
+.copyright {
+    color: #ffffffb5;
+    padding: 30px 650px;
+    padding-bottom: 128px;
+    margin-left: 100px;
+}
+
+/* footer end  */
