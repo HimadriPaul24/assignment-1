@@ -51,11 +51,14 @@ body {
     width: 400px;
     height: 500px;
     margin-top: 100px;
-    /* height: 700px; */
 }
 
+main section {
+    margin-top: 130px;
+}
+
+/* shared style  */
 /* instagram styles */
-main {}
 
 .section-heading {
     color: #272727;
@@ -63,24 +66,22 @@ main {}
     font-size: 30px;
     font-weight: 800;
     margin-top: 130px;
-    /* margin-bottom:8px; */
 
 }
 
+/* top e shared styles */
+
 .social-description {
-    padding: 44px 460px;
+    padding: 32px 460px;
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 18px;
     font-weight: 400;
-    
+
 }
-
-
 
 .flower-container {
     display: flex;
-    gap: 30px;
     justify-content: space-around;
     max-width: 1440px;
     margin: 0 auto;
@@ -89,8 +90,38 @@ main {}
 .flower {
     height: 420px;
     width: 330px;
-    padding: 40 200 128 200;
+    padding: 50 240;
+    gap: 24px;
     border-radius: 5px;
 
+}
+
+/* deal section styles  */
+.deal-container{
+      background-image: url("../images/flower-6.png");
+      background-repeat: no-repeat;
+      max-width: 1440px;
+      margin: 0 auto;
+      margin-bottom: 30px;
+      
+}
+
+.deal-heading {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 120px;
 
 }
+
+#email {
+    height: 45px;
+    width: 700px;
+  
+}
+.connect{
+    margin-left: 300px;
+    padding-bottom:120px;
+}
+
