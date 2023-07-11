@@ -58,6 +58,54 @@ main section {
 }
 
 /* shared style  */
+
+/* featured styles */
+
+/* hot deal styles */
+.hot-deal-section {
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+
+.hot-deal-header {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+
+.hot-deal-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px 300px;
+
+}
+
+.hot-deal-banner {
+    padding: 30px 200px 0px 200px;
+    display: flex;
+    align-items: center;
+}
+
+.btn-secondary{
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    /* margin: 50px; */
+    padding: 15px 30px;
+    text-align: center;
+    margin-top: 50px;
+
+
+}
+
+
 /* instagram styles */
 
 .section-heading {
@@ -67,6 +115,10 @@ main section {
     font-weight: 800;
     margin-top: 130px;
 
+}
+
+.deal-banner {
+    display: flex;
 }
 
 /* top e shared styles */
@@ -97,6 +149,21 @@ main section {
 }
 
 /* deal section styles  */
+.deal-header {
+    color: #272727;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.deal-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
 .deal-container {
     background-image: url("../images/flower-6.png");
     background-repeat: no-repeat;
@@ -114,6 +181,8 @@ main section {
     padding-top: 120px;
 
 }
+
+/* instagram section styles */
 
 #email {
     height: 45px;
@@ -134,7 +203,7 @@ main section {
     padding: 115px;
     margin-top: 128px;
     margin-bottom: 0px;
-   
+
 }
 
 .footer-flower {
@@ -149,16 +218,23 @@ main section {
 }
 
 .footer-description {
-    color: white;
     margin-left: 100px;
     padding: 30px 650px;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
 }
 
 .copyright {
-    color: #ffffffb5;
     padding: 30px 650px;
     padding-bottom: 128px;
     margin-left: 100px;
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 /* footer end  */
