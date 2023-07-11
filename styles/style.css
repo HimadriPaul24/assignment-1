@@ -60,40 +60,85 @@ main section {
 /* shared style  */
 
 /* featured styles */
-.pink-div {
-    border-radius: 300px 300px 0px 0px;
-    background: rgba(167, 33, 98, 0.15);
-    /* background-image: url('../images/flower-7.png');
-    background-repeat: no-repeat; */
-    /* background-position: bottom; */
-    /* margin-bottom: 0px; */
-
-}
-
-.pink-flower {
-    background-position: bottom;
-
-
-}
-
-.pink-detail {
+.featured-part h1{
     color: #272727;
     text-align: center;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 35px;
-    text-decoration-line: underline;
+    font-size: 40px;
+    line-height: normal;
+}
+.featured-part p{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: rgba(39,39,39,0.6);
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 10px;
+}
+.feature{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+    
+}
+.features1{
+    width: 304px;
+    height: 408px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167,33,98,0.15);
+    background-image: url();
 }
 
-.blue-div {
-    border-radius: 300px 300px 0px 0px;
-    background: rgba(5, 151, 160, 0.15);
+.features1 img{
+    width: 200px;
+    height: 358px;
+    margin-top: 50px;
+    margin-left: 45px;
 
 }
-
-.green-div {
+.features1 h4{
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+.features2 {
+    width: 304px;
+    height: 408px;
+    flex-shrink: 0;
     border-radius: 300px 300px 0px 0px;
-    background: rgba(71, 125, 17, 0.15);
+    background:rgba(5,151,160,0.15);
+
+}
+.feature2 img{
+    width: 200px;
+    height: 358px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.features2 h4{
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+.features3 {
+    width: 304px;
+    height: 408px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background:rgba(5,151,160,0.15);
+
+}
+.feature3 img{
+    width: 200px;
+    height: 358px;
+    margin-top: 50px;
+    margin-left: 45px;
+}
+.features3 h4{
+    text-align: center;
+    margin-top: 40px;
+    text-decoration: underline;
 }
 
 /* hot deal styles */
